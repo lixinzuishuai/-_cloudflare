@@ -461,7 +461,7 @@ EDGE_HOSTS = [
     for h in os.environ.get(
         "EDGE_HOSTS",
         "www.udacity.com:443,53.fs1.hubspotusercontent-na1.net:443,thebeat.gehealthcare.com:443,saas.sin.fan:443,uspto.gov:443,"
-        "www.udacity.com:443,53.fs1.hubspotusercontent-na1.net:443,thebeat.gehealthcare.com:443,saas.sin.fan:443,uspto.gov:443,",
+        "serviceshub.samsclub.com:443,www.vastnovel.com:443,www.jp.pima.gov:443,constitution.congress.gov:443,login.rockwellautomation.com:443,www.xflash.vip:443,www.shopify.com:443",
     ).split(",")
     if h.strip()
 ]
